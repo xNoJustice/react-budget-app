@@ -1,14 +1,19 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import reportWebVitals from './reportWebVitals'
-import './index.css'
+import { BudgetsProvider } from './contexts/BudgetsContext'
 import App from './App'
+import './index.css'
 import * as serviceWorkerRegistration from './serviceWorkerRegistration'
 
 ReactDOM.render(
-  <div className="bg-gray-100 dark:bg-gray-900 w-full h-full flex justify-center items-center font-sans">
-    <App />
-  </div>,
+  <React.StrictMode>
+    <BudgetsProvider>
+      <div className="bg-gray-100 dark:bg-gray-900 w-full h-auto flex justify-center items-center font-sans">
+        <App />
+      </div>
+    </BudgetsProvider>
+  </React.StrictMode>,
   document.getElementById('root'),
 )
 

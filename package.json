@@ -1,18 +1,17 @@
 {
-  "name": "react-tailwind-boilerplate",
+  "name": "react-budget-app",
   "version": "1.0.0",
   "author": "xNoJustice",
-  "description": "CRA Template for tailwind, prettier and autopublish on GH pages",
-  "repository": "https://github.com/xNoJustice/react-tailwind-boilerplate",
-  "homepage": "https://xnojustice.github.io/react-tailwind-boilerplate",
+  "description": "Budget control app for React",
+  "repository": "https://github.com/xNoJustice/react-budget-app",
+  "homepage": "https://xnojustice.github.io/react-budget-app",
   "keywords": [
     "react",
     "reactjs",
-    "react-boilerplate",
     "tailwindcss",
     "tailwind",
     "tailwind-css",
-    "boilerplate"
+    "budget"
   ],
   "license": "MIT",
   "scripts": {
@@ -29,9 +28,11 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "prop-types": "^15.8.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "uuid": "^8.3.2",
     "web-vitals": "^0.2.4",
     "workbox-background-sync": "^5.1.3",
     "workbox-broadcast-update": "^5.1.3",
