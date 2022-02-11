@@ -1,4 +1,4 @@
-<img alt="React Tailwind Boilerplate" src="" />
+<img alt="React Budget App" src="https://github.com/xNoJustice/react-budget-app/blob/d3b26ab7ba80eca21d8e35c1d529cb876c771ab0/budget.gif" />
 
 ## Install & Start
 
